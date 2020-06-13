@@ -1,0 +1,21 @@
+{
+  "name": "fhda-wechat-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:FHDA/fhda-wechat-bot.git"
+  },
+  "author": "William Chen",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/FHDA/fhda-wechat-bot/issues"
+  },
+  "homepage": "https://github.com/FHDA/fhda-wechat-bot#readme"
+}
