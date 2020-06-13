@@ -1,0 +1,27 @@
+{
+  "eslint.validate": ["javascript", "typescript"],
+  "cSpell.words": [
+    "appenders",
+    "appid",
+    "commitlint",
+    "commitlintrc",
+    "ioscat",
+    "ipad",
+    "logonoff",
+    "padchat",
+    "padplus",
+    "padpro",
+    "pagepath",
+    "qrcode",
+    "readonly",
+    "removee",
+    "shellcheck",
+    "thumbnailurl",
+    "wechat",
+    "wechaty",
+    "weixin",
+    "xcode",
+    "fhda",
+    "fhdaorg"
+  ]
+}
