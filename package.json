@@ -76,7 +76,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:FHDA/fhda-wechat-bot.git"
+    "url": "git@github.com:FHDA/wechat-bot.git"
   },
   "author": "William Chen",
   "keywords": [
@@ -91,7 +91,7 @@
   ],
   "license": "",
   "bugs": {
-    "url": "https://github.com/FHDA/fhda-wechat-bot/issues"
+    "url": "https://github.com/FHDA/wechat-bot/issues"
   },
-  "homepage": "https://github.com/FHDA/fhda-wechat-bot#readme"
+  "homepage": "https://github.com/FHDA/wechat-bot#readme"
 }
