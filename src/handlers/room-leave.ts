@@ -14,11 +14,13 @@ export class RoomLeave extends Handler {
 
       // if bot-self being kick out the  room
       if (leaverList[0].self()) {
-        logger.info(`Bot being kick out ${roomTopic} by ${remover}`);
+        logger.info(`Bot being kicked out ${roomTopic} by ${remover}`);
         return;
       }
 
-      logger.info(`${leaverNameList} remove from ${roomTopic} by ${remover}`);
+      logger.info(
+        `${leaverNameList} is removed from ${roomTopic} by ${remover}`
+      );
     } catch (e) {
       logger.error(`room-level event exception: ${e.stack}`);
     }
