@@ -27,7 +27,8 @@ export class Scan extends Handler {
         logger.info(url);
         logger.info(`^^^ Online QR Code Image URL ^^^ `);
         logger.info(
-          `${qrcode} Scan QR Code above url or below image to login.`
+          `${qrcode} Scan QR code in the link above or ` +
+            `shown on the image below for logging in`
         );
         generate(qrcode, { small: true });
         break;
