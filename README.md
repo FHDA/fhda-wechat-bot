@@ -24,8 +24,8 @@
 ## Install
 
 ```bash
-$ git git@github.com:FHDA/fhda-wechat-bot.git
-$ cd fhda-wechat-bot
+$ git git@github.com:FHDA/wechat-bot.git
+$ cd wechat-bot
 $ npm install
 ```
 
