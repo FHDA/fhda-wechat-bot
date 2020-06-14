@@ -1,9 +1,8 @@
-require("dotenv").config();
+import * as dotenv from "dotenv";
+import { Wechaty } from "wechaty";
 
 import { logger } from "./logger";
 import * as handlers from "./handlers";
-
-import { Wechaty } from "wechaty";
 
 function botInstantiate(): Wechaty {
   if (!process.env.WECHATY_PUPPET_PADPLUS_TOKEN) {
@@ -27,6 +26,8 @@ function botInstantiate(): Wechaty {
 
 async function main() {
   logger.info(`Start bot`);
+
+  dotenv.config();
 
   const bot: Wechaty = botInstantiate();
 
