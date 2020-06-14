@@ -7,7 +7,8 @@ import * as handlers from "./handlers";
 function botInstantiate(): Wechaty {
   if (!process.env.WECHATY_PUPPET_PADPLUS_TOKEN) {
     logger.error(
-      `env: "WECHATY_PUPPET_PADPLUS_TOKEN" not define, please define token in .env file`
+      `env: "WECHATY_PUPPET_PADPLUS_TOKEN" not define, ` +
+        `please define token in .env file`
     );
     throw Error(`token not define`);
   }
