@@ -21,6 +21,7 @@ rules:
     - remove
     - del
   body-leading-blank: [0]
+  body-max-line-length: [0]
 
 help: |
   **Possible types**:
