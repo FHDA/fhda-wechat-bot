@@ -5,7 +5,7 @@
   "main": "src/main.ts",
   "dependencies": {
     "@types/node": "^14.0.13",
-    "cjk-conv": "^1.2.88",
+    "cjk-conv": "^1.2.91",
     "dotenv": "^8.2.0",
     "log4js": "^6.3.0",
     "qrcode-terminal": "^0.12.0",
